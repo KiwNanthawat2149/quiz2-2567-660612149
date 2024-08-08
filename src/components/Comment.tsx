@@ -1,4 +1,8 @@
 "use client";
+
+import Comment from "Reply";
+
+
 export default function Comment({
   userImagePath,
   username,
@@ -28,7 +32,7 @@ export default function Comment({
 
             <div className={likeNum ? "d-flex align-items-center gap-1": "d-none"}>
               <img src="/like.svg" width={20}></img>
-              <span style={{ color: "#B0B3B8" }}>{likeNum} คน</span>
+              <span style={{ color: "#B0B3B8" }}>{likeNum} prople</span>
             </div>
           </div>
         </div>
